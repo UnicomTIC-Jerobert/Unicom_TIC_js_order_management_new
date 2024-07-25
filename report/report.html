@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Order Management</h1>
+  <div id="order-form">
+    <!-- Existing order form content -->
+  </div>
+  <div id="order-list">
+    <!-- Existing order list content -->
+  </div>
+  <h2>Reports</h2>
+  <div id="report-section">
+    <label for="report-type">Select Report:</label>
+    <select id="report-type">
+      <option value="sales">Sales Report</option>
+      <option value="top-products">Top-Selling Products</option>
+      <option value="top-customers">Top Customers</option>
+      <option value="inventory">Inventory Report</option>
+    </select>
+    <button id="generate-report">Generate Report</button>
+    <div id="report-content"></div>
+  </div>
+  <script type="module" src="order.js"></script>
+  <script type="module" src="report.js"></script>
+</body>
+</html>

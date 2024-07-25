@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  #order-form {
+    margin-bottom: 20px;
+  }
+  
+  #order-form select, #order-form input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+  }
+  
+  #product-table th, #product-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  #product-table th {
+    background-color: #f9f9f9;
+  }
+  
+  #order-list {
+    margin-top: 20px;
+  }
+  
+  .order-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #report-section {
+    margin-top: 20px;
+  }
+  
+  #report-content {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  

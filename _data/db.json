@@ -1,10 +1,10 @@
 {
   "customers": [
     {
-      "id": "1",
       "name": "John Doe",
       "phoneNumber": "1234567890",
-      "email": "johndoe@example.com"
+      "email": "johndoe@example.com",
+      "id": "1"
     },
     {
       "id": "2",
@@ -15,18 +15,18 @@
   ],
   "addresses": [
     {
-      "id": "1",
       "houseNumber": "123",
       "street": "Main St",
       "city": "Springfield",
-      "customerId": 1
+      "customerId": 1,
+      "id": "1"
     },
     {
-      "id": "2",
       "houseNumber": "456",
       "street": "Elm St",
       "city": "Springfield",
-      "customerId": 1
+      "customerId": 1,
+      "id": "2"
     },
     {
       "id": "3",
@@ -34,6 +34,13 @@
       "street": "Oak St",
       "city": "Shelbyville",
       "customerId": 2
+    },
+    {
+      "id": "e105",
+      "houseNumber": "789",
+      "street": "hospital road",
+      "city": "jaffna",
+      "customerId": 1
     }
   ],
   "products": [
@@ -44,16 +51,16 @@
       "id": "1"
     },
     {
-      "id": "2",
-      "name": "Smartphone",
-      "stockInHand": 150,
-      "price": 800
-    },
-    {
       "id": "2f8c",
       "name": "mobile",
       "stockInHand": "100",
       "price": "20"
+    },
+    {
+      "id": "56d8",
+      "name": "mango",
+      "stockInHand": "500",
+      "price": "120"
     }
   ],
   "orders": [
@@ -82,6 +89,21 @@
         }
       ],
       "dateOfOrder": "2024-07-26"
+    },
+    {
+      "id": "3aa6",
+      "customerId": 2,
+      "products": [
+        {
+          "productId": 1,
+          "quantity": 2
+        },
+        {
+          "productId": 56,
+          "quantity": 10
+        }
+      ],
+      "orderDate": "2024-07-25"
     }
   ]
 }

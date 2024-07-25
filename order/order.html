@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Order Management</h1>
+  <div id="order-form">
+    <label for="customer-select">Select Customer:</label>
+    <select id="customer-select"></select>
+    <h2>Products</h2>
+    <table id="product-table">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <button id="add-product">Add Product</button>
+    <button id="save-order">Save Order</button>
+  </div>
+  <div id="order-list"></div>
+  <script type="module" src="order.js"></script>
+</body>
+</html>

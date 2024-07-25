@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Management App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Customer Management</h1>
+  <div id="customer-form">
+    <input type="hidden" id="customer-id">
+    <label for="customer-name">Name:</label>
+    <input type="text" id="customer-name">
+    <label for="customer-phone">Phone Number:</label>
+    <input type="text" id="customer-phone">
+    <label for="customer-email">Email:</label>
+    <input type="email" id="customer-email">
+    <h2>Addresses</h2>
+    <div id="addresses">
+      <!-- Address inputs will be added here dynamically -->
+    </div>
+    <button id="add-address">Add Address</button>
+    <button id="save-customer">Save Customer</button>
+  </div>
+  <div id="customer-list"></div>
+  <script type="module" src="customer.js"></script>
+</body>
+</html>
