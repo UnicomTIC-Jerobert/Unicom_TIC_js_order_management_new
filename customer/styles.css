@@ -1,46 +1,65 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-  }
-  
-  h1, h2 {
-    color: #333;
-  }
-  
-  #customer-form {
-    margin-bottom: 20px;
-  }
-  
-  #customer-form input {
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  #addresses {
-    margin-bottom: 20px;
-  }
-  
-  .address-item {
-    margin-bottom: 10px;
-  }
-  
-  #customer-list {
-    margin-top: 20px;
-  }
-  
-  .customer-item {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-  }
-  
-  .customer-item .addresses {
-    margin-top: 10px;
-  }
-  
-  .customer-item button {
-    margin-top: 10px;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+.w-500 {
+  width: 500px;
+}
+.flex-row-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.border-1-r{
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+
+
+#customer-form {
+  margin-bottom: 20px;
+}
+
+#customer-form input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#addresses {
+  margin-bottom: 20px;
+}
+
+.address-item {
+  margin-bottom: 10px;
+}
+
+#customer-list {
+  margin-top: 20px;
+}
+
+.customer-item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.customer-item div {
+  margin-right: 20px;
+}
+
+.customer-item .addresses {
+  margin-top: 10px;
+}
+
+.customer-item button {
+  margin-top: 10px;
+}

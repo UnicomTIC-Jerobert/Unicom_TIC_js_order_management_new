@@ -51,13 +51,13 @@
       "id": "1"
     },
     {
-      "id": "2f8c",
+      "id": "2",
       "name": "mobile",
       "stockInHand": "100",
       "price": "20"
     },
     {
-      "id": "56d8",
+      "id": "3",
       "name": "mango",
       "stockInHand": "500",
       "price": "120"
@@ -99,7 +99,7 @@
           "quantity": 2
         },
         {
-          "productId": 56,
+          "productId": 2,
           "quantity": 10
         }
       ],

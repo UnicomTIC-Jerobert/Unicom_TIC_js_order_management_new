@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard</title>
-  <link rel="stylesheet" href="css/common.css">
-</head>
-<body>
-  <header>
-    <h1>Admin Dashboard</h1>
-    <nav>
-      <ul>
-        <li><a href="customer/customer.html">Customers</a></li>
-        <li><a href="products/product.html">Products</a></li>
-        <li><a href="order/order.html">Orders</a></li>
-        <li><a href="report/report.html">Reports</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <h2>Welcome to the Admin Dashboard</h2>
-    <p>Select a section from the navigation menu to manage customers, products, orders, or view reports.</p>
-  </main>
-  <script type="module" src="js/dashboard.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/common.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Order Mangement</h1>
+      <nav>
+        <ul>
+          <li><a href="#customers" id="nav-customers">Customers</a></li>
+          <li><a href="#products" id="nav-products">Products</a></li>
+          <li><a href="#orders" id="nav-orders">Orders</a></li>
+          <li><a href="#reports" id="nav-reports">Reports</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main-content">
+      <h2>Welcome to the Order Mangement Dashboard</h2>
+      <p>
+        Select a section from the navigation menu to manage customers, products,
+        orders, or view reports.
+      </p>
+    </main>
+    <script type="module" src="js/dashboard.js"></script>
+  </body>
 </html>
