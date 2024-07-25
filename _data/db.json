@@ -1,0 +1,87 @@
+{
+  "customers": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "phoneNumber": "1234567890",
+      "email": "johndoe@example.com"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "phoneNumber": "0987654321",
+      "email": "janesmith@example.com"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "1",
+      "houseNumber": "123",
+      "street": "Main St",
+      "city": "Springfield",
+      "customerId": 1
+    },
+    {
+      "id": "2",
+      "houseNumber": "456",
+      "street": "Elm St",
+      "city": "Springfield",
+      "customerId": 1
+    },
+    {
+      "id": "3",
+      "houseNumber": "789",
+      "street": "Oak St",
+      "city": "Shelbyville",
+      "customerId": 2
+    }
+  ],
+  "products": [
+    {
+      "name": "Laptop123",
+      "stockInHand": "20",
+      "price": "1200",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Smartphone",
+      "stockInHand": 150,
+      "price": 800
+    },
+    {
+      "id": "2f8c",
+      "name": "mobile",
+      "stockInHand": "100",
+      "price": "20"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "customerId": 1,
+      "products": [
+        {
+          "productId": 1,
+          "quantity": 2
+        },
+        {
+          "productId": 2,
+          "quantity": 1
+        }
+      ],
+      "dateOfOrder": "2024-07-25"
+    },
+    {
+      "id": "2",
+      "customerId": 2,
+      "products": [
+        {
+          "productId": 3,
+          "quantity": 1
+        }
+      ],
+      "dateOfOrder": "2024-07-26"
+    }
+  ]
+}
